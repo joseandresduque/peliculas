@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Mis Películas</title>
+    <meta charset="utf-8" />
+    <link href="./css/style.css?version=6.0" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="botones">  
+        <input id="inicio" type="button" value="Inicio" />
+        <input id="popularity" type="button" value="Popularity" />
+        <input id="voteCount" type="button" value="Vote Count" />
+        <input id="voteAverage" type="button" value="Vote Average" />
+       <!-- <input id="adultFilm" type="button" value="Adult Film" />-->
+        <div>
+            Busqueda general: <input id="busqueda" type="text" value="" />
+            <input id="btnBusqueda" type="button" value="Buscar" />
+        </div>
+    </div>
+    <div id="flechas">   
+        Estás viendo la página
+        <span id="pagina-actual"></span>&nbsp;de&nbsp;
+        <span id="total-paginas"></span>
+        <div id="flecha-izda">
+            <i class="fa fa-arrow-left puntero" aria-hidden="true" title="Ir a la anterior página"></i>
+        </div>
+        <div id="flecha-derecha">
+            <i class="fa fa-arrow-right puntero" aria-hidden="true" title="Ir a la siguiente página"></i>
+        </div>
+    </div>
+    <div id="principal"></div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-1.10.2.min.js"
+            integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg="
+            crossorigin="anonymous"></script>-->
+    <script src="./js/js.js?version=8.0" type="text/javascript"></script>
+</body>
+</html>

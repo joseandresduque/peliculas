@@ -1,0 +1,80 @@
+﻿body {
+    font-family: Helvetica, san-serif;
+    background-color: #F9D8AD;
+    height: 100%;
+}
+img{
+    width:180px;
+    margin:5px auto;
+    display:block;
+    height: 260px;
+}
+#centrado{
+    width: 95%;
+    margin: auto;
+}
+.tarjeta {
+    background-color: #f9d8ad;
+    bottom: 0;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    float:left;
+    width: 300px;
+    margin:1%;
+    height: 600px;
+    overflow-y: auto;
+}
+p {
+    color: rgba(0,0,0,.6);
+    font-family: 'Raleway', sans-serif;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:justify;word-wrap: break-word;
+    white-space: normal;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+/*overflow:hidden; /* Escondemos la parte sobrante */
+/*white-space:nowrap; /* Indicamos que no realice salto de linea si no cabe en la anchura indicada */
+/*text-overflow: ellipsis; /* Ponemos los dos puntos */
+hr{
+    color:  #e29228;
+    background-color:  #e29228;
+}
+span,.titulo{
+    font-weight:bold;
+}
+.titulo {
+    text-align:center;
+    font-size:large;
+}
+.idTitulo{
+    background-color: #efb57b;
+    display: inline-block;
+    width: 100%;
+}
+input[type=button]{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.puntero {
+    cursor:pointer;
+}
+#flecha-izda,#flecha-derecha {
+    
+    width:40px;
+    float:left;
+}
+.oculto {
+    display: none;
+}
